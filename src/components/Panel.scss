@@ -1,0 +1,17 @@
+.Panel {
+  background-color: lightblue;
+  border: 2px solid darkgray;
+  margin: 10px;
+
+  & .head {
+    background-color: lightskyblue;
+    border-bottom: 1px solid darkgray;
+    margin: 0;
+    padding-left: 10px;
+  }
+
+  & .content p {
+    padding-left: 20px;
+  }
+
+}

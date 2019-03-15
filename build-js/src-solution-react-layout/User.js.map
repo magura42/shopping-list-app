@@ -1,0 +1,1 @@
+{"version":3,"file":"User.js","sourceRoot":"","sources":["../../src-solution-react-layout/User.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAG1B,IAAM,IAAI,GAAG,UAAC,EAA+B;QAA9B,wBAAS,EAAE,sBAAQ;IAAgB,OAAA,CAChD;QACE,kDAA2B;QAAA,kCAAO,SAAS,CAAQ;QAAA,+BAAK;QACxD,iDAA0B;QAAA,kCAAO,QAAQ,CAAQ;QAAA,+BAAK,CAClD,CAAE;AAJwC,CAIxC,CAAC;AAEX,eAAe,IAAI,CAAC"}
