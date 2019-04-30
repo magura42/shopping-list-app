@@ -15,7 +15,7 @@ class ShoppingListEntry extends Component<IShoppingListEntry, IUserState> {
         <Card>
           <CardContent>
             <Typography color="textSecondary">
-              {this.props.entryName}
+              {this.props.number}, {this.props.entryName}
             </Typography>
           </CardContent>
         </Card>
