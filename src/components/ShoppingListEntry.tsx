@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import {IShoppingListEntry, IUserState} from "./IShoppingListEntry";
-import Panel from "./Panel";
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
 
 class ShoppingListEntry extends Component<IShoppingListEntry, IUserState> {
 
@@ -10,9 +12,13 @@ class ShoppingListEntry extends Component<IShoppingListEntry, IUserState> {
 
   render() {
     return (
-      <Panel title="Einkaufitem">
-        <p>Item: {this.props.entryName}, Anzahl: {this.props.number}</p>
-      </Panel>
+        <Card>
+          <CardContent>
+            <Typography color="textSecondary">
+              {this.props.entryName}
+            </Typography>
+          </CardContent>
+        </Card>
     )
   }
 }
