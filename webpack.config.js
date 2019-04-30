@@ -38,7 +38,8 @@ module.exports = {
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
-            template: "./index.html"
+            template: "./index.html",
+            favicon: "./src/favicon.ico"
         }),
         new webpack.DefinePlugin({
             "process.env": {
